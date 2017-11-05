@@ -1,0 +1,567 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  font-family: "Microsoft YaHei";
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.frame{
+  padding: 0;
+  min-width: 1300px;
+  height: auto;
+}
+nav{
+  background-image: url(/..images/标题背景.png);
+  min-width: 1024px;
+  height: 57px;
+}
+.head ul{
+  list-style-type:none;
+  margin-left: 55%;
+  padding:0px;
+}
+.head ul li{
+  display: inline;
+  float: left;
+  margin-right: 7%;
+}
+.head ul li a{
+  display: block;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color:rgb(181,183,187);
+  line-height: 1.929;
+  height: 57px;
+  text-decoration: none;
+}
+.head ul li a:hover{
+  background-image:url(../images/hover_02.png);
+  color: red;
+}
+.login a{
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(238, 139, 138);
+  line-height: 1.929;
+  text-decoration: none;
+
+}
+.head_logo{
+  float:left;
+  margin-left: 4.6%;
+}
+.content{
+  background-image: url(../images/图一.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:854px;
+}
+.mengban{
+  background-image: url(../images/图一遮罩.png);
+  opacity:1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:854px;
+}
+.box_01{
+  font-size: 60px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255,255,255);
+  float: left;
+  margin-left: 9%;
+  margin-top:20%;
+}
+.content p{
+  font-size: 21px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 253, 253);
+  float: left;
+  clear: both;
+  margin-left: 10%;
+
+}
+.button{
+  background-image: url(../images/button.png);
+  font-size: 30px;
+  font-family: "Microsoft YaHei";
+  line-height: 65px;
+  text-align: center;
+  float: left;
+  margin-left:10%;
+  margin-top:5%;
+  clear: both;
+  width: 331px;
+  height: 65px;
+}
+.button a{
+  color: white;
+}
+.main_01{
+  text-align: center;
+  height: 300px;
+}
+.icon{
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+}
+.ceil{
+  float: left;
+}
+.icon .line{
+  margin-left: 2%;
+  margin-top: 140px;
+}
+.icon img{
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+.main_02{
+  background-image: url(../images/bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+.main_02 .box_02{
+  position: relative;
+  top: 120px;
+}
+.main_02 .box_02 p{
+  font-size: 53.586px;
+  font-family: "SimHei";
+  color: rgba(50, 51, 51, 0.502);
+  line-height: 1.056;
+}
+.main_03{
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:400px ;
+  text-align: center;
+}
+select{
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background-image: url(../images/jiantou.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 36px;
+  width: 236px;
+  margin-right: 25px;
+  font-size: 12px;
+  color: rgb(168, 170, 170);
+}
+.box_03_button{
+  display: inline-block;
+  background-image: url(../images/button_03.png);
+  width: 236px;
+  height: 36px;
+  text-align: center;
+}
+.box_03_button span{
+  line-height: 36px;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 20px;
+}
+.main_03 .mengban_02{
+  background-image: url(../images/mengban_02.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:400px ;
+}
+.main_03 .box_03{
+  position: relative;
+  top:54px;
+}
+.main_03 .text_01{
+  font-size: 21px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  line-height: 1.994;
+  margin: 0;
+}
+.main_03 .text_02{
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 2.605;
+}
+.main_04{
+  background-image: url(../images/bg5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 605px
+}
+.main_04 .box_04{
+  position: relative;
+  top: 100px;
+  height: 505px;
+}
+.pic_01{
+  float: left;
+  margin-left:15%;
+  text-align: center;
+}
+.pic_02{
+  float: left;
+  margin-left: 3%;
+  text-align: center;
+}
+.pic_03{
+  float: left;
+  margin-left: 3%;
+  text-align: center;
+}
+.pic_04{
+  float: left;
+  margin-left: 3%;
+  text-align: center;
+}
+.main_04 .text_01{
+  font-size: 15px;
+  font-family: "Microsoft YaHei";
+  color: black;
+}
+.main_04 .text_02{
+  font-size: 5px;
+  font-family: "Microsoft YaHei";
+  color: rgb(149, 149, 149);
+}
+.main_04 .text_00{
+  font-size: 21px;
+  letter-spacing: 30px;
+  font-family: "Microsoft YaHei";
+}
+.main_05 .box_05_left{
+  background-image: url(../images/time.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 66%;
+  height: 567px;
+  text-align: center;
+  float: left;
+}
+.main_05 .box_05_left .text_left{
+  position: relative;
+  top: 130px;
+}
+.main_05 .box_05_left .text_03{
+  font-size: 49.473px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+
+}
+.main_05 .box_05_left .text_04{
+  font-size: 157.788px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+}
+.main_05 .box_05_left .text_05{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+}
+.main_05 .box_05_right{
+  float: left;
+  text-align: center;
+  width: 34%;
+  height: 567px;
+}
+.main_05 .box_05_right_text_01{
+  font-size: 22px;
+  margin-top: 145px;
+  margin-bottom: 30px;
+}
+.main_05 .box_05_right_text_01 span{
+  color: red;
+}
+.main_05 .box_05_right_text_02{
+  font-size: 12px;
+  font-family: "SimSun";
+  line-height: 2.5;
+  text-align: left;
+  color: rgb(170, 170, 170);
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-bottom: 50px
+}
+.main_05 .box_05_right_button{
+  background-image: url(../images/main_05_button.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 107px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px
+}
+.main_05 .box_05_right_button a{
+  color: red;
+}
+.main_06 .box_06_left{
+  background-image: url(../images/box_06_left_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.3%;
+  height: 521px;
+  float: left;
+  text-align: center;
+}
+.main_06 .box_06_left_content{
+  position: relative;
+  top:170px;
+}
+.main_06 .box_06_left_text{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: white;
+  line-height: 1.446;
+}
+.main_06 .box_06_left_button{
+  background-image: url(../images/box_06_left_button.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 170px;
+  height: 44px;
+  margin: auto;
+  margin-top: 30px;
+}
+.main_06 .box_06_left_button a{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: white;
+  line-height: 44px;
+}
+.main_06 .box_06_mid{
+  width: 33.3%;
+  height: 521px;
+  float: left;
+  text-align: center;
+}
+.main_06 .box_06_mid_content{
+  position: relative;
+  top:170px;
+}
+.main_06 .box_06_mid_text{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: black;
+  line-height: 1.446;
+}
+.main_06 .box_06_mid_button{
+  background-image: url(../images/box_06_mid_button.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 170px;
+  height: 44px;
+  margin: auto;
+  margin-top: 30px;
+}
+.main_06 .box_06_mid_button a{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: red;
+  line-height: 44px;
+}
+.main_06 .box_06_right{
+  background-image: url(../images/box_06_right_bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.3%;
+  height: 521px;
+  float: left;
+}
+.main_07 .box_07_top{
+  text-align: center;
+  clear: both;
+  height: 300px;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+.main_07 .box_07_top_content{
+  margin: auto;
+}
+.box_07_top_content h1{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: rgb(50, 51, 51);
+}
+.box_07_top_content p{
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+  line-height: 1.5;
+}
+.box_07_left{
+  float: left;
+  text-align: center;
+  margin-left: 12%;
+}
+.box_07_left_content{
+  margin: auto;
+  text-align: left;
+}
+.box_07_left_content_01 h2{
+  font-size: 14px;
+  font-family: "SimHei";
+  color: rgba(35, 24, 21, 0.8);
+  line-height: 1.929;
+}
+.box_07_left_content_01 p{
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgba(35, 24, 21, 0.6);
+  line-height: 1.75;
+}
+.box_07_left_content_01_icon{
+  text-align: right;
+}
+.box_07_left_content_02_icon{
+  text-align: right;
+}
+.box_07_left_content_03_icon{
+  text-align: right;
+}
+input{
+  outline: none;
+  -webkit-appearance:none;
+}
+.box_07_right{
+  float: left;
+  height: 280px;
+  margin-left: 80px;
+  margin-bottom: 165px;
+}
+.box_07_right_content_01 #name{
+  background-image: url(../images/box_07_right_ceil_01.png);
+  width: 311px;
+  height: 41px;
+  float: left;
+  margin-bottom: 20px;
+}
+.box_07_right_content_02 #age{
+  background-image: url(../images/box_07_right_ceil_01.png);
+  width: 311px;
+  height: 41px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.box_07_right_content_03 #contact{
+  background-image: url(../images/box_07_right_ceil_01.png);
+  width: 311px;
+  height: 41px;
+  float: left;
+  margin-bottom: 20px;
+}
+.box_07_right_content_04 #address{
+  background-image: url(../images/box_07_right_ceil_01.png);
+  width: 311px;
+  height: 41px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px
+}
+.box_07_right_content_05 #lifestyle{
+  background-image: url(../images/box_07_right_ceil_02.png);
+  width: 649px;
+  height: 121px;
+  float: left;
+  margin-bottom: 20px;
+}
+.box_07_right_button{
+  background-image: url(../images/box_07_right_button.png);
+  width: 653px;
+  height: 41px;
+  text-align: center;
+  clear: both;
+}
+.box_07_right_button span{
+  line-height: 41px;
+}
+.footer_top{
+  background-image: url(../images/footer_top_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 361px;
+  clear: both;
+  text-align: center;
+}
+.box_08{
+  margin: 0 auto;
+  position: relative;
+  top:100px;
+}
+.box_08_text_01{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: rgb(255, 255, 255);
+  line-height: 2.303;
+}
+.box_08_text_02{
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.box_08 input{
+  width:430px;
+  height: 35px;
+  float: left;
+  margin-left:33%;
+  margin-bottom: 20px;
+}
+.box_08_button{
+background-image: url(../images/box_08_button.png);
+width: 81px;
+height: 41px;
+float: left;
+}
+.box_08_button span{
+  line-height: 41px;
+  font-size: 15px;
+  color: white;
+}
+.box_08_icon{
+  clear: both;
+}
+.box_08_icon img{
+  margin-left: 20px;
+}
+.footer_bottom{
+  background-image: url(../images/footer_bottom_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 58px;
+  position: relative;
+  top: -1px;
+}
+.footer_bottom_text_01{
+  position: absolute;
+  left: 102px;
+  top: 30px;
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgb(255, 255, 255);
+  line-height: 1.9;
+}
+.footer_bottom_text_02{
+  position: absolute;
+  top: 30px;
+  left: 1300px;
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgb(255, 255, 255);
+  line-height: 2.25;
+}
