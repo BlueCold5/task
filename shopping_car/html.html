@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>shopping car</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headName">
+        <h1>圣诞节购物车</h1>
+        <h2>Happy Christmas</h2>
+      </div>
+      <div id="shoppingCar">
+        <table id="shopping_car">
+          <tr id="tableHead">
+            <th>商品信息</th>
+            <th>单价</th>
+            <th>数量</th>
+            <th>操作</th>
+          </tr>
+          <tbody id="tableBody">
+          </tbody>
+        </table>
+      </div>
+      <div class="footer">
+        <div class="footerBox">
+          <div class="box">
+            <p>已选商品<span id="itemNum"></span>件</p>
+          </div>
+          <div class="box">
+            <p>合计（不含运费）<span id="itemPrice"></span></p>
+          </div>
+          <div class="box">
+            <button type="button" name="result">结算</button>
+          </div>
+        </div>
+        <div class="newItem">
+          <h2>添加商品</h2>
+          <table>
+            <tr id="newItemHead">
+              <th>商品信息</th>
+              <th>单价</th>
+              <th>数量</th>
+            </tr>
+            <tr id="newItemBody">
+              <td><input type="text" name="newitem" ></td>
+              <td><input type="text" name="newitem" ></td>
+              <td><input type="text" name="newitem" ></td>
+            </tr>
+          </table>
+          <div class="addButton">
+            <button type="button" name="addnew" onclick="add_item(this);">添加商品</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

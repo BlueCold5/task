@@ -1,0 +1,61 @@
+@font-face {
+      font-family: 'alexbrushRegular';
+      src: url('../fonts/alexbrush-regular-webfont.eot');
+      src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+	   url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
+	   url('../fonts/alexbrush-regular-webfont.svg#alexbrushRegular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+   }
+body{
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+.headName{
+  text-align: center;
+  padding-top: 30px;
+}
+.headName h2{
+  font-family: "alexbrushRegular";
+  font-size: 40px;
+}
+#shoppingCar{
+  margin:0 80px;
+}
+table{
+  width: 100%;
+  text-align: center;
+  border-collapse:collapse;
+}
+tr{
+  border: 1px solid black;
+}
+#tableBody button{
+  margin:0 10px;
+}
+#tableHead th{
+  padding: 10px 0 40px 0;
+}
+tr td{
+  padding: 20px 0;
+}
+.footerBox{
+  margin:0 80px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footerBox .box{
+  padding-left: 20px;
+}
+.newItem{
+  margin:0 80px 0 80px;
+}
+.newItem h2{
+  text-align: center;
+}
+.addButton{
+  float: right;
+}
